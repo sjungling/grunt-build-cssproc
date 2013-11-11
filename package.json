@@ -14,18 +14,19 @@
   "bugs": {
     "url": "https://github.com/sjungling/grunt-buildcom-cssproc/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/sjungling/grunt-buildcom-cssproc/blob/master/LICENSE-MIT"
-    }
-  ],
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://github.com/sjungling/grunt-buildcom-cssproc/blob/master/LICENSE-MIT"
+  }],
   "main": "Gruntfile.js",
   "engines": {
     "node": ">= 0.8.0"
   },
   "scripts": {
     "test": "grunt test"
+  },
+  "dependencies": {
+    "cssproc": ">= 0.0.7"
   },
   "devDependencies": {
     "cssproc": ">= 0.0.7",
