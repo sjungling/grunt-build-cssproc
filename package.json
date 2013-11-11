@@ -1,0 +1,40 @@
+{
+  "name": "grunt-buildcom-cssproc",
+  "description": "Grunt wrapper for cssproc node.js modules",
+  "version": "0.1.0",
+  "homepage": "https://github.com/sjungling/grunt-buildcom-cssproc",
+  "author": {
+    "name": "Scott Jungling",
+    "email": "scott.jungling@build.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/sjungling/grunt-buildcom-cssproc"
+  },
+  "bugs": {
+    "url": "https://github.com/sjungling/grunt-buildcom-cssproc/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/sjungling/grunt-buildcom-cssproc/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "cssproc": ">= 0.0.7",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "cssproc"
+  ]
+}
